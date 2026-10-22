@@ -1,0 +1,9 @@
+.DS_Store
+# Xcode per-user state may contain account, team, and machine-specific data.
+**/xcuserdata/
+**/*.xcuserstate
+**/*.xcuserdatad/
+**/*.xccheckout
+**/*.xcscmblueprint
+DerivedData/
+build/

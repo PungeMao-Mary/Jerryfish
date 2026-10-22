@@ -1,0 +1,708 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "· %@" : {
+
+    },
+    "#RRGGBB" : {
+
+    },
+    "%@  ·  %lld × %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@  ·  %2$lld × %3$lld"
+          }
+        }
+      }
+    },
+    "%@ — Jerryfish" : {
+
+    },
+    "%lld" : {
+
+    },
+    "%lld × %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld × %2$lld"
+          }
+        }
+      }
+    },
+    "Add Drawing" : {
+
+    },
+    "Add Ellipse" : {
+
+    },
+    "Add Highlight" : {
+
+    },
+    "Add Line" : {
+
+    },
+    "Add Rectangle" : {
+
+    },
+    "Add Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加文字批注"
+          }
+        }
+      }
+    },
+    "Color" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "颜色"
+          }
+        }
+      }
+    },
+    "Delete Annotation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除批注"
+          }
+        }
+      }
+    },
+    "Delete Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除文字批注"
+          }
+        }
+      }
+    },
+    "Edit Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑文字批注"
+          }
+        }
+      }
+    },
+    "Ellipse" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "椭圆"
+          }
+        }
+      }
+    },
+    "Erase Annotation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擦除批注"
+          }
+        }
+      }
+    },
+    "Erase Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擦除文字批注"
+          }
+        }
+      }
+    },
+    "Eraser" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橡皮擦"
+          }
+        }
+      }
+    },
+    "Font Size" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "字号"
+          }
+        }
+      }
+    },
+    "Highlight" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "荧光笔"
+          }
+        }
+      }
+    },
+    "Jerryfish" : {
+
+    },
+    "Line" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直线"
+          }
+        }
+      }
+    },
+    "Move Annotation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移动批注"
+          }
+        }
+      }
+    },
+    "OCR 引擎不可用：%@" : {
+
+    },
+    "PDF 处理失败" : {
+
+    },
+    "PDF 性能节约模式（低分辨率渲染，长文档更流畅）" : {
+
+    },
+    "PDF 批注" : {
+
+    },
+    "Pen" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画笔"
+          }
+        }
+      }
+    },
+    "Rectangle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "矩形"
+          }
+        }
+      }
+    },
+    "Resize Annotation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "缩放批注"
+          }
+        }
+      }
+    },
+    "Select" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择"
+          }
+        }
+      }
+    },
+    "Stroke Width" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "线宽"
+          }
+        }
+      }
+    },
+    "T" : {
+
+    },
+    "Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字"
+          }
+        }
+      }
+    },
+    "下载 / 修复离线语言包" : {
+
+    },
+    "下载离线语言包" : {
+
+    },
+    "中文译文" : {
+
+    },
+    "交换原文与译文" : {
+
+    },
+    "停止屏幕监听" : {
+
+    },
+    "停止常驻" : {
+
+    },
+    "停止输入 1.5 秒后自动翻译" : {
+
+    },
+    "全局快捷键" : {
+
+    },
+    "关闭" : {
+
+    },
+    "最近使用" : {
+
+    },
+    "取消（Esc）" : {
+
+    },
+    "在任意应用中按此快捷键框选文字并翻译" : {
+
+    },
+    "在此粘贴日文内容，或按 ⌘⇧A 截屏取词…" : {
+
+    },
+    "在此粘贴英文内容，或按 ⌘⇧A 截屏取词…" : {
+
+    },
+    "在系统设置中安装离线语言包" : {
+
+    },
+    "在系统设置中管理" : {
+
+    },
+    "处理中…" : {
+
+    },
+    "复制译文（⌘C）" : {
+
+    },
+    "完成" : {
+
+    },
+    "完成（退出截屏，Enter）" : {
+
+    },
+    "导入 PDF 翻译" : {
+
+    },
+    "尚未安装「%@」离线包，点右侧按钮下载后会自动重译。" : {
+
+    },
+    "屏幕录制权限设置" : {
+
+    },
+    "已复制" : {
+
+    },
+    "已生成 %lld 条译文批注" : {
+
+    },
+    "已生成 %lld 条译文批注（%lld 页经 OCR）" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "已生成 %1$lld 条译文批注（%2$lld 页经 OCR）"
+          }
+        }
+      }
+    },
+    "常驻翻译" : {
+
+    },
+    "当前系统不支持该语言对：%@" : {
+
+    },
+    "快捷键 / 偏好" : {
+
+    },
+    "恢复默认 ⌘⇧A" : {
+
+    },
+    "截图数据无效，无法识别文字。" : {
+
+    },
+    "截屏" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "截屏"
+          }
+        }
+      }
+    },
+    "截屏失败" : {
+
+    },
+    "截屏失败：%@" : {
+
+    },
+    "截屏翻译" : {
+
+    },
+    "截屏翻译结束后自动激活本应用窗口" : {
+
+    },
+    "所选的 PDF 没有可翻译页面。" : {
+
+    },
+    "打开" : {
+
+    },
+    "打开 PDF 翻译…" : {
+
+    },
+    "打开 PDF…" : {
+
+    },
+    "打开 PDF（替换当前文档）" : {
+
+    },
+    "打开系统设置" : {
+
+    },
+    "找不到与选区匹配的显示器。" : {
+
+    },
+    "文字识别失败" : {
+
+    },
+    "无法打开 PDF" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to open PDF"
+          }
+        }
+      }
+    },
+    "无法打开 PDF：%@" : {
+
+    },
+    "日文原文" : {
+
+    },
+    "日语" : {
+
+    },
+    "显示主窗口" : {
+
+    },
+    "显示原文" : {
+
+    },
+    "显示性能耗时信息（调试用）" : {
+
+    },
+    "未初始化" : {
+
+    },
+    "未在 PDF 中提取到可翻译文本（可能是纯图片页）。" : {
+
+    },
+    "未在所选区域识别到文字。" : {
+
+    },
+    "未提取到可翻译文本" : {
+
+    },
+    "未知窗口" : {
+
+    },
+    "未识别到所选语言文本，请重新框选。" : {
+
+    },
+    "未选择 PDF" : {
+
+    },
+    "本地翻译中 %lld/%lld 段…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "本地翻译中 %1$lld/%2$lld 段…"
+          }
+        }
+      }
+    },
+    "本地翻译中…" : {
+
+    },
+    "框选区域就地翻译 ⌘⇧A" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "框选区域就地翻译 ⌘⇧A"
+          }
+        }
+      }
+    },
+    "框选需要翻译的文字区域" : {
+
+    },
+    "正在准备识别引擎…" : {
+
+    },
+    "正在截取所选区域…" : {
+
+    },
+    "正在提取文本并定位…" : {
+
+    },
+    "正在本地离线翻译…" : {
+
+    },
+    "正在本地翻译…" : {
+
+    },
+    "正在检查离线语言包…" : {
+
+    },
+    "正在识别文字…" : {
+
+    },
+    "正在请求系统下载离线语言包…" : {
+
+    },
+    "正在预热 OCR 引擎（仅首次需要，约 20 秒）…" : {
+
+    },
+    "没有可翻译的内容。" : {
+
+    },
+    "清空" : {
+
+    },
+    "清除 PDF 译文批注" : {
+
+    },
+    "清除译文批注" : {
+
+    },
+    "点击窗口 = 整窗翻译 · 拖动 = 自由框选 · Esc 取消" : {
+
+    },
+    "生成译文批注" : {
+
+    },
+    "离线翻译包已就绪" : {
+
+    },
+    "离线翻译包未安装" : {
+
+    },
+    "离线翻译语言包" : {
+
+    },
+    "离线语言包已就绪。" : {
+
+    },
+    "系统不支持该语言对：%@" : {
+
+    },
+    "系统中尚未安装当前原文语言对应的离线翻译包。请点击「下载离线语言包」，或在系统设置 → 通用 → 语言与地区 → 翻译语言 中安装。" : {
+
+    },
+    "系统尚未安装「%@」离线翻译包。可在本应用中一键下载，或前往系统设置手动安装。" : {
+
+    },
+    "系统未确认安装完成。若刚才没有弹出下载提示，请在「系统设置 → 通用 → 语言与地区 → 翻译语言」中手动添加。" : {
+
+    },
+    "系统翻译会话仍在建立中，请稍候再试一次。" : {
+
+    },
+    "系统翻译会话仍在建立中，请稍候再试一次。\n\n诊断：" : {
+
+    },
+    "系统翻译服务响应超时（可能正在下载离线语言包）。请稍后重试。" : {
+
+    },
+    "缺少屏幕录制权限" : {
+
+    },
+    "缺少离线翻译语言包" : {
+
+    },
+    "翻译" : {
+
+    },
+    "翻译 PDF 全文" : {
+
+    },
+    "翻译偏好" : {
+
+    },
+    "翻译全文（⌘⇧T）" : {
+
+    },
+    "翻译失败" : {
+
+    },
+    "翻译已取消。" : {
+
+    },
+    "翻译引擎尚未就绪" : {
+
+    },
+    "翻译引擎尚未就绪，请稍候重试。" : {
+
+    },
+    "翻译引擎异常：%@" : {
+
+    },
+    "翻译引擎正在准备，请点「重译」再试一次。" : {
+
+    },
+    "翻译引擎正在准备，请点「重译」再试一次。\n" : {
+
+    },
+    "翻译当前内容 ⌘↩" : {
+
+    },
+    "翻译当前输入" : {
+
+    },
+    "翻译结果为空，请重新框选。" : {
+
+    },
+    "翻译结果为空（请确认离线语言包已安装）" : {
+
+    },
+    "自动替换选区文字 ⌘+点击重选" : {
+
+    },
+    "英文原文" : {
+
+    },
+    "英语" : {
+
+    },
+    "设置" : {
+
+    },
+    "设置…" : {
+
+    },
+    "识别语言" : {
+
+    },
+    "译文将在此显示，可自由编辑 / 复制" : {
+
+    },
+    "译文批注字号" : {
+
+    },
+    "请先输入或粘贴日文内容。" : {
+
+    },
+    "请先输入或粘贴英文内容。" : {
+
+    },
+    "请在「系统设置 → 隐私与安全性 → 屏幕录制」中勾选本应用，然后重新启动本应用（macOS 要求重启后授权才生效）。" : {
+
+    },
+    "请选择需要翻译批注的英文 PDF。" : {
+
+    },
+    "选区太小，请重新框选。" : {
+
+    },
+    "选择原文语言" : {
+
+    },
+    "选择需要翻译批注的日文 PDF" : {
+
+    },
+    "选择需要翻译批注的英文 PDF" : {
+
+    },
+    "遮盖原文（显示译文）" : {
+
+    },
+    "重新显示译文图层" : {
+
+    },
+    "重新框选区域" : {
+
+    },
+    "重新激活引擎" : {
+
+    },
+    "重新翻译（⌘R）" : {
+
+    },
+    "隐藏译文图层（只显示原文）" : {
+
+    },
+    "需要「屏幕录制」权限才能截屏翻译。请在系统设置 → 隐私与安全性 → 屏幕录制中勾选本应用。" : {
+
+    },
+    "预设" : {
+
+    }
+  },
+  "version" : "1.0"
+}

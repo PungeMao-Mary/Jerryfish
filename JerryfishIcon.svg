@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- 外阴影 (macOS 标准微浮雕投影) -->
+    <filter id="mac-drop-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#1B2B48" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1B2B48" flood-opacity="0.08" />
+    </filter>
+
+    <!-- 柔和内发光/模糊 -->
+    <filter id="liquid-core-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+    <filter id="frosted-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+
+    <!-- 1. 背景浅色霜玻璃渐变 -->
+    <linearGradient id="bg-plate-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="45%" stop-color="#F2F6FC" />
+      <stop offset="100%" stop-color="#DEE7F6" />
+    </linearGradient>
+
+    <!-- 图标外边框微光 (Rim Light) -->
+    <linearGradient id="plate-rim-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#BACCE6" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- 2. 水母内部发光体 (次表面散射/极光色) -->
+    <radialGradient id="core-glow-grad" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#3FD0FF" stop-opacity="1" />
+      <stop offset="45%" stop-color="#5B67FF" stop-opacity="0.92" />
+      <stop offset="75%" stop-color="#FF7FC4" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- 3. 液态玻璃伞盖外层渐变 -->
+    <linearGradient id="glass-bell-grad" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="30%" stop-color="#BEDDFB" stop-opacity="0.85" />
+      <stop offset="70%" stop-color="#7FB0EC" stop-opacity="0.78" />
+      <stop offset="100%" stop-color="#A98BEF" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- 4. 玻璃锐利反光 (主高光) -->
+    <linearGradient id="specular-highlight" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- 5. 触须液态流光渐变 -->
+    <linearGradient id="tentacle-grad-1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2FBF8F" stop-opacity="0.95" />
+      <stop offset="40%" stop-color="#3B82F6" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.08" />
+    </linearGradient>
+
+    <linearGradient id="tentacle-grad-2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1FA8F0" stop-opacity="1" />
+      <stop offset="50%" stop-color="#5B67E8" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#EF5FA8" stop-opacity="0.22" />
+    </linearGradient>
+  </defs>
+
+  <!-- ================= 主画板底座 (macOS 标准 Squircle) ================= -->
+  <g filter="url(#mac-drop-shadow)">
+    <rect x="50" y="50" width="412" height="412" rx="92.7" 
+          fill="url(#bg-plate-grad)" />
+    <!-- 1px 超精细玻璃倒角边框 -->
+    <rect x="50" y="50" width="412" height="412" rx="92.7" 
+          fill="none" stroke="url(#plate-rim-grad)" stroke-width="1.5" />
+  </g>
+
+  <!-- ================= 视窗裁剪（内容仅在图标内） ================= -->
+  <g clip-path="url(#plate-clip)" transform="translate(50,50) scale(0.980952) translate(-46,-44)">
+    <clipPath id="plate-clip">
+      <rect x="50" y="50" width="412" height="412" rx="92.7" />
+    </clipPath>
+
+
+    <!-- ================= 水母主体 (Jerryfish) ================= -->
+
+    <!-- 1. 灵动飘逸的液态触须 (后层) -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M 195,248 C 170,290 190,345 165,395" 
+            stroke="url(#tentacle-grad-1)" stroke-width="3.4" opacity="0.9" />
+      <path d="M 317,248 C 342,290 322,345 347,395" 
+            stroke="url(#tentacle-grad-1)" stroke-width="3.4" opacity="0.9" />
+      
+      <!-- 主泳足带（宽幅半透明彩带） -->
+      <path d="M 235,255 C 215,310 255,360 225,415" 
+            stroke="url(#tentacle-grad-2)" stroke-width="5.4" opacity="1" />
+      <path d="M 277,255 C 297,310 257,360 287,415" 
+            stroke="url(#tentacle-grad-2)" stroke-width="5.4" opacity="1" />
+
+      <!-- 中心触丝 -->
+      <path d="M 256,258 C 250,300 262,350 256,420" 
+            stroke="#6BA6F5" stroke-width="3" opacity="1" />
+    </g>
+
+    <!-- 2. 内核流体次表面散射光 (生物荧光感) -->
+    <ellipse cx="256" cy="195" rx="60" ry="42" 
+             fill="url(#core-glow-grad)" filter="url(#liquid-core-blur)" />
+
+    <!-- 3. 液态玻璃主伞盖 (外层高透水滴壳) -->
+    <!-- 造型曲线模拟水滴与轻盈伞冠 -->
+    <path d="M 148,225 
+             C 145,145 200,122 256,122 
+             C 312,122 367,145 364,225 
+             C 340,248 318,235 292,246 
+             C 272,254 240,254 220,246 
+             C 194,235 172,248 148,225 Z" 
+          fill="url(#glass-bell-grad)" 
+          stroke="url(#specular-highlight)" 
+          stroke-width="1.5" />
+    <!-- 3b. 伞盖深色轮廓（原本只有白色高光，浅色底上几乎看不出形状） -->
+    <path d="M 148,225 
+             C 145,145 200,122 256,122 
+             C 312,122 367,145 364,225 
+             C 340,248 318,235 292,246 
+             C 272,254 240,254 220,246 
+             C 194,235 172,248 148,225 Z" 
+          fill="none" 
+          stroke="#5E92D8" 
+          stroke-opacity="0.65" 
+          stroke-width="2.2" />
+
+    <!-- 4. 伞盖底层液滴折射边缘 (凹透镜聚光层) -->
+    <path d="M 154,223 
+             C 174,242 194,230 220,240 
+             C 240,248 272,248 292,240 
+             C 318,230 338,242 358,223" 
+          fill="none" 
+          stroke="#FFFFFF" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          opacity="0.8" />
+
+    <!-- 5. 顶部主高光弧 (Liquid Specular) -->
+    <!-- 强化液态流动的凝脂反光，右侧略聚拢，符合 Apple 经典光源 -->
+    <path d="M 172,168 
+             C 190,138 226,128 256,128 
+             C 286,128 322,138 340,168 
+             C 310,146 278,137 256,137 
+             C 234,137 202,146 172,168 Z" 
+          fill="url(#specular-highlight)" />
+
+    <!-- 6. 晶莹微气泡水滴 (增强视觉层次与活力) -->
+    <circle cx="230" cy="180" r="3.5" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="282" cy="175" r="2.5" fill="#FFFFFF" opacity="0.6" />
+    <circle cx="250" cy="160" r="1.5" fill="#FFFFFF" opacity="0.9" />
+    
+    <!-- 顶部环境光掠影 (全画板次表面光漫射) -->
+    <ellipse cx="256" cy="65" rx="140" ry="15" fill="#FFFFFF" opacity="0.4" />
+  </g>
+</svg>
